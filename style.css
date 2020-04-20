@@ -4,7 +4,27 @@
     padding:10% 20%;
 }
 
+
+
 p{
     font-size:30px ;
     color: chocolate;
+    text-decoration:  underline;
+    font-style: italic;
+    font-family: 'Special Elite', cursive;
+}
+
+
+#signIn{
+    width: 900px;
+    height: 400px;
+    margin: 10%;
+    background-color: cadetblue;
+
+}
+
+
+
+#myButton{
+    display: block;
 }

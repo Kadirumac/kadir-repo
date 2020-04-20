@@ -1,29 +1,20 @@
 
-var dom = document.querySelector('p').innerText
 
-var dom1 = document.querySelector('p')
+function toplam() {
 
-console.log(dom);
+var x = document.querySelector('#ilk').value
 
-console.log(dom1);
+console.log(x);
+
+var y = document.querySelector('.sonraki').value 
+
+console.log( y );
+
+var toplam = Number(x) + Number(y)
 
 
-function elma() {
-    alert('welcome');
+console.log(toplam);
 
-    console.log('h1 e tikladiniz');
-    
-}
 
-function elmaH1() {
-    alert('h1 basligi');
-    
-    console.log('h1 e tikladiniz');
-    
-}
-function elmaH2() {
-    alert('h2 basligi');
-    
-    console.log('h2 e tikladiniz');
     
 }
