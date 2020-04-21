@@ -6,7 +6,7 @@
 
 
 
-p{
+.myText{
     font-size:30px ;
     color: chocolate;
     text-decoration:  underline;
@@ -27,4 +27,10 @@ p{
 
 #myButton{
     display: block;
+}
+
+#anabaslik{
+    margin-left: 20%;
+    color: darkolivegreen;
+    text-align: center;
 }
